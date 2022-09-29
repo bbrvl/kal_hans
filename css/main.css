@@ -1,0 +1,669 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;      
+    color: #000000;
+    font-weight: 400;
+    background: white;
+    margin: 0 auto; 
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;    
+
+}
+
+/* header */
+
+/* sale */
+.header_sale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 49px;  
+}
+
+.header_sale p {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;    
+    
+    color: #B88987;    
+}
+
+/* logo */
+.header-logo {
+    background: #E6E1D6;
+    padding: 0;
+    height: 100px;
+    
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.nav-button {
+    margin-right: 550px;
+}
+
+.nav-logo {
+    margin-right: 135px;
+}
+
+.nav-glass {
+    margin-right: 65px;
+}
+
+.nav-basket {
+    margin-right: 35px;
+}
+
+.header-product {
+    width: 100%;
+    padding-bottom: 0;
+    height: 750px;
+}
+
+
+/* main */
+
+.main-info {
+    display: flexbox;
+    height: 570px;
+    background: #E6E1D6;
+    padding-top: 200px;
+    padding-bottom: 215px;
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-info span {
+    font-size: 42px;
+    line-height: 59px;
+    padding-left: 192px;
+    padding-right: 192px;
+}
+
+.main-info p {
+    font-size: 18px;
+    line-height: 24px; 
+    
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-top: 45px;
+    padding-bottom: 215px;
+}
+
+/* section essentials */
+
+.main_essentials {
+    background: #FFFFFF; 
+    margin-bottom: 100px;
+}
+
+.main-bio {
+    padding-top: 90px;
+    text-align: center;
+}
+
+.main-bio span {
+    font-size: 19px;
+    line-height: 29px;
+    color: #B88987;   
+    margin-bottom: 25px;
+}
+
+.main-product {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    margin: auto;  
+    text-align: center;
+}
+
+.product {
+    width: 400px;
+}
+
+.face-mist,
+.aloe-mist{
+    margin-left: 120px;
+    
+}
+
+
+.product img {
+    height: 270px;
+
+    margin-bottom: 20px;
+}
+
+.product span {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+
+.product p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;   
+    margin-bottom: 5px;
+}
+
+.product a {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;  
+    color: #000000; 
+    text-decoration: none;
+    
+    margin-left: 80px;
+}
+
+.product a:hover {
+    color:#CFACAD;
+}
+
+/* section */
+
+.shop-free {
+    height: 1080px;    
+    background: #CFACAD; 
+
+    display: flex;
+}
+
+.shop-img {
+    right: 50%; 
+}
+
+.shop-info {
+    margin-top: 360px;
+}
+
+
+.shop-list {
+    margin-top: 35px;
+    margin-bottom: 45px;
+    margin-left: 250px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.shop-list li {
+    margin-bottom: 15px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.shop-list li:first-child {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;   
+    margin-bottom: 35px; 
+}
+
+.shop-list li:last-child {
+    margin-top: 55px;
+}
+
+.shop-button{
+    height: 44px;
+    width: 225px;
+
+    border: 3px solid #FFFFFF;
+    background: #CFACAD;
+    color: #FFFFFF;
+
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.shop-button:hover {
+    background-color: #FFFFFF;
+    color: #CFACAD;
+    border: 3px solid #e4cece;
+}
+
+/* review */
+
+.people-review {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    text-align: center;
+}
+
+.people-review span {
+    margin-bottom: 35px;
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;    
+    color: #B88987;
+}
+
+.people-review p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    margin-bottom: 45px;
+}
+
+.review-img { 
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-img img {
+    margin-right: 20px;
+}
+
+.review-img img:last-child {
+    margin-right: 0;
+}
+
+.people-review button {
+    width: 205px;
+    height: 45px;
+
+    background: #E6E1D6;
+    border: 3px solid #E6E1D6;
+    border-radius: 0px;
+
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.people-review button:hover {
+    background: #000000;
+    border: 3px solid #000000;
+    border-radius: 0px;
+    color: #E6E1D6;   
+}
+
+/* eye cream */
+
+.eye-cream-info {
+    height: 600px;
+    background: #E6E1D6;
+    display: flex;
+}
+
+.bio-cream {
+    margin-top: 75px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 74px;
+    text-align: center;
+}
+
+.info-cream span {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #B88987;    
+}
+
+.price {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    margin-top: 35px;
+    color: #B88987;   
+}
+
+.cream-desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;    
+}
+
+.button-cream {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.button-cream-list {
+    list-style-type: none;
+}
+
+.list-img {
+    margin-bottom: 20px;
+}
+
+
+.add-to-cart {
+    width: 300px;
+    height: 48px;
+    background: #000000;
+    border: 3px solid #E6E1D6;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    transition: 0.2s;
+
+    color: #FFFFFF;
+}
+
+.add-to-cart:hover {
+    color: #000000;
+    background:#eeeeee;
+}
+
+.list-buy {
+    border: 3px solid #E6E1D6;
+    border-radius: 0px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 35px;
+
+    color: #000000;
+    background: #E6E1D6;
+    text-decoration: none;
+}
+
+.list-buy:hover {
+    color:#FFFFFF;
+    background: #000000;
+}
+
+
+.partners-info {
+    height: 480px;
+}
+
+/* body */
+
+.skin-info {
+    height: 1080px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.body-cream {
+    margin-top: 425px;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-bottom: 425px;
+    text-align: center;
+}
+
+.body-cream span {
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 44px;
+    color: #B88987;   
+}
+
+.body-cream p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;   
+    margin-bottom: 45px;
+    margin-top: 35px;
+}
+
+.body-cream-button {
+    width: 180px;
+    height: 45px;
+    background: #E6E1D6;
+    border: 3px solid #E6E1D6;
+    border-radius: 0px;   
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.body-cream-button:hover {
+    color: #E6E1D6;
+    background: #000000;
+    border: 3px solid #272727;
+}
+
+/* news */
+
+.news-letter {
+    height: 322px;   
+    background: #CFACAD;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.news-letter span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.news-letter p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.news-letter img {
+    margin-bottom: 100px;
+}
+
+/* story */
+
+.our-story {
+    height: 960px;
+    display: flex;
+    justify-content: space-between;
+    background: #E6E1D6;
+    text-align: center;
+}
+
+.story-bio {
+    padding-top: 365px;
+}
+
+.story-bio span {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 35px;
+    color: #B88987;
+}
+
+.story-bio p {
+    font-size: 14px;
+    line-height: 21px;      
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 55px;
+}
+
+.story-bio button {
+    background: #E6E1D6;
+    border: 3px solid #E6E1D6;
+    border-radius: 0px;
+    height: 44px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.story-bio button:hover {
+    color: #E6E1D6;
+    background: #000000;
+    border: 3px solid #272727;   
+}
+
+/* naturalist blog */
+
+.blog-story {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.blog_story{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #B88987;   
+    margin-left: 632px;
+}
+
+.blog-info {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 50px;
+    margin-left: 80px;
+    margin-right: 90px;
+}
+
+.blog-desc { 
+    margin-right: 80px;
+}
+
+.blog-desc:last-child {
+    margin-right: 0;
+}
+
+.blog-desc img {
+    margin-bottom: 35px;
+}
+
+.blog-desc span {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;    
+    color: #B88987;   
+}
+
+.date {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 5px;    
+}
+
+.blog-info-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 15px;   
+}
+
+.blog-desc a {
+    color: #B88987; 
+}
+
+.blog-desc a:hover {
+    color:#5a4544;
+}
+
+/* footer */
+
+.footer-bio {
+    height: 377px;
+    background: #CFACAD;    
+}
+
+.footer-link {
+    padding-top: 100px;
+    margin-bottom: 16px;
+    margin-left: 265px;
+    margin-right: 265px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.footer-link a:hover {
+    color:#aa7f7d;
+}
+
+.footer-socials {
+    text-align: center;
+}
+.footer-socials img {
+    margin-right: 20px;
+}
+
+.footer-socials img:last-child {
+    margin-right: 0;
+}
+
+.footer-socials p {
+    margin-bottom: 15px;
+    margin-top: 50px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.footer-partners {
+    margin-left: 400px;
+}
+
+.footer-partners img {
+    margin-right: 12px;
+}
+
+.footer-partners img:last-child {
+    margin-right: 0;
+}
